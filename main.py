@@ -18,8 +18,8 @@ wikipedia.set_lang("fa")
 sys.setdefaultencoding("utf-8")
 
 TOKEN = 'TOKEN'
-bot = telebot.TeleBot(TOKEN)
-is_sudo = 'ADMIN ID'
+bot = telebot.TeleBot(252451102:AAHnqTZBkI1CtX0QQlRBwhImRmO-fE9fx0c)
+is_sudo = '270647271'
 rediss = redis.StrictRedis(host='localhost', port=6379, db=0)
 
 @bot.message_handler(commands=['start'])
@@ -95,7 +95,7 @@ forward msg to private Me
 
 
 <b>inline mode</b> :
-<code>@Arrow_robot</code>
+<code>@id_gp_bot</code>
 <b>Menu Inline</b>
 
 
@@ -104,7 +104,7 @@ forward msg to private Me
 برای دریافت راهنمای فارسی بنویس
 /helpfa
 سازنده
-@negative
+@mohamad_mahdi_77
         """, parse_mode='HTML', reply_markup=markup)
 
 @bot.message_handler(commands=['helpfa'])
